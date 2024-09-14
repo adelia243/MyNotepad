@@ -26,5 +26,16 @@ namespace MyNotepad
         {
             Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            Form2 fr = new Form2();
+            fr.Show();
+        }
     }
 }
